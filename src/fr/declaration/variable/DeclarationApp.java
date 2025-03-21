@@ -13,6 +13,10 @@ public class DeclarationApp {
         boolean h = true;
         String i = "Hello";
 
+        // double > float > long > int > short > byte --> hierarchies
+        // possible de dire double h = 100L; / byte a = +2; / double h = 1.3e10;
+
+        // raccourci sout pour mettre les print directement
         System.out.println("byte a = " + a);
         System.out.println("short b = " + b);
         System.out.println("int c = " + c);
@@ -25,5 +29,9 @@ public class DeclarationApp {
 
         String randomString = "Voici le résultat d’un calcul :\n1+5=6";
         System.out.println(randomString);
+
+        int j = 053; // notation octale ! donnera 43
+        int k = 0b010001; // binaire il faut mettre 0b
     }
+
 }
